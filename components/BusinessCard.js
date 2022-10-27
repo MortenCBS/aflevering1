@@ -17,6 +17,7 @@ const BusinessCard = () => {
         <View>
             <Image
                 style={styles.qrCode}
+                {/*indsæt billede af QR-kode*/}
                 source={require('../assets/qr-code.png')}
             />
         </View>
